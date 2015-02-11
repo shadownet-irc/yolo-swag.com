@@ -18,6 +18,10 @@ html {
 	min-height: 100%;
 }
 
+.navbar {
+	background: #FFF9FD;
+}
+
 .flash {
 	background: #cee5F5;
 	padding: 0.5em;
