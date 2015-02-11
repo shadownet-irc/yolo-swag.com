@@ -18,6 +18,7 @@
   "dependencies": {
     "bootstrap": "~3.3.2",
     "fontawesome": "~4.3.0",
-    "instantclick": "~3.1.0"
+    "instantclick": "~3.1.0",
+    "components-bootstrap-cyborg": "components/bootstrap-cyborg#~2.3.1"
   }
 }

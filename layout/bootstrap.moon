@@ -16,12 +16,13 @@ class Layout extends Widget
 
     link rel: "stylesheet", href: "/static/comp/bootstrap/dist/css/bootstrap.min.css"
     link rel: "stylesheet", href: "/static/comp/bootstrap/dist/css/bootstrap-theme.min.css"
+    link rel: "stylesheet", href: "/static/comp/components-bootstrap-cyborg/css/bootstrap.min.css"
     link rel: "stylesheet", href: "/static/comp/fontawesome/css/font-awesome.min.css"
     link rel: "stylesheet", href: "/static/css/main.css"
 
     link type: "text/plain", rel: "author", href: "/humans.txt"
 
-    script src: "/static/comp/jquery/dist/jquery.min.js"
+    script src: "/static/comp/jquery/jquery.min.js"
     script src: "/static/comp/bootstrap/dist/js/bootstrap.min.js"
     script src: "/static/comp/instantclick/instantclick.js"
 
