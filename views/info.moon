@@ -73,8 +73,6 @@ class UserInfo extends Widget
 
         p "Attention bot authors: Please note that we do use TCP defer-accept so please send data before you wait to get any."
 
-    div class: "row", ->
-      div class: "col-md-6", ->
         h2 "Services"
 
         h3 ->

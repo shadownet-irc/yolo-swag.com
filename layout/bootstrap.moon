@@ -28,28 +28,31 @@ class Layout extends Widget
 
   header: =>
     nav class: "navbar navbar-fixed-top", ->
-      div class: "container", ->
-        div class: "navbar-header", ->
-          button type: "button", class: "navbar-toggle collapsed", ["data-toggle"]: "collapse", ["data-target"]: "#navbar", ["aria-expanded"]: "false", ["aria-controls"]: "navbar", ->
-            span class: "sr-only", ->
-              text "Toggle navigation"
+      div class: "navbar-header", ->
+        button type: "button", class: "navbar-toggle collapsed", ["data-toggle"]: "collapse", ["data-target"]: "#navbar", ["aria-expanded"]: "false", ["aria-controls"]: "navbar", ->
+          span class: "sr-only", ->
+            text "Toggle navigation"
 
-            for i=1,3
-              span class: "icon-bar"
+          for i=1,3
+            span class: "icon-bar"
 
-          a class: "navbar-brand", href: "/", ->
-            text "ShadowNET"
+        a class: "navbar-brand", href: "#", ->
+          img width: 34, height: 34, src: "/static/img/logo.png"
 
-        div id: "navbar", class: "collapse navbar-collapse", ->
-          ul class: "nav navbar-nav", ->
-            li ->
-              a href: "/info", "Info"
-            li ->
-              a href: "/rules", "Rules"
+      div id: "navbar", class: "collapse navbar-collapse", ->
+        ul class: "nav navbar-nav", ->
+          li ->
+            a href: "/", "Home"
+          li ->
+            a href: "/info", "Info"
+          li ->
+            a href: "/rules", "Rules"
+          li ->
+            a href: "/help", "Help"
 
-          ul class: "nav navbar-nav navbar-right", ->
-            li ->
-              a href: "/chat", "Chat Now"
+        ul class: "nav navbar-nav navbar-right", ->
+          li ->
+            a href: "/chat", "Chat Now"
 
   footer: =>
     footer ->
