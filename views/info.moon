@@ -80,10 +80,10 @@ class UserInfo extends Widget
         p "Atheme is a feature-packed, extremely customizable IRC services daemon that is secure, stable and scalable. Compatible with most IRCv3 compliant daemons and some that aren't, it is one of the most widely known and used services packages today. More information available on their website. Just click the title!"
 
         h3 ->
-          a href: "ZNC", "http://znc.in"
+          a href: "http://znc.in", "ZNC"
         p "ZNC, an IRC Network Bouncer, keeps your connection online, even when your client is closed. It keeps your channels, PMs, modes and all saved for you until you connect again, making it seem as if you never went offline."
         p "We currently offer several bouncers, please poke either Xe or Lore on IRC to get more information."
 
         h3 ->
-          a href: "Tetra", "https://github.com/Xe/Tetra"
+          a href: "https://github.com/Xe/Tetra", "Tetra"
         p "Tetra is our second generation homegrown extended services package. It handles things that both IRC bots and traditional administrative services or statistics services would handle. It is written in Go and uses Lua scripts for all dynamic functionality."
