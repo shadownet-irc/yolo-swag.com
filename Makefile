@@ -12,4 +12,4 @@ test: build
 
 deploy:
 	git push
-	@echo "TODO: add dokku deploy target"
+	git push dokku master
