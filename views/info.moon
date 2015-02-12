@@ -25,7 +25,7 @@ class UserInfo extends Widget
 
         h3 ->
           a href: "mailto:zazie@yolo-swag.com", "Zazie (AKA Melody)"
-        p "Microsoft Xbox hardware testing. Rescued from this former home of moronic users and, freed from networks past, they now thrive here as a core part of the staff. Experienced in most aspects of IRC operation, with experience in these daemons; Anope, Atheme, Charybdis, Elemental, InspIRCd, and Unreal."
+        p "Some person Xe initially found (and rescued from) slaving at the QA mines of Microsoft Xbox hardware testing. Rescued from this former home of moronic users and, freed from networks past, they now thrive here as a core part of the staff. Experienced in most aspects of IRC operation, with experience in these daemons; Anope, Atheme, Charybdis, Elemental, InspIRCd, and Unreal."
 
         h3 "Lore"
         p "See one of the DashNet ZNC accounts connected somewhere, or does our Minecraft server intrigue you? Contact him if you want in."
