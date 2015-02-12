@@ -23,6 +23,9 @@ class UserInfo extends Widget
         h3 "Quora"
         p "One of the main stakeholders in Elemental-IRCd and Cod."
 
+        h3 "Blackjack"
+        p "The maintainer of Cod. Inspired to an Unreal level, Blackjack has helped work stuff out of the Ratbox to Elemental simplicity. We all can't wait for the SQL, it's sure to be Mongo."
+
         h3 ->
           a href: "mailto:zazie@yolo-swag.com", "Zazie (AKA Melody)"
         p "Some person Xe initially found (and rescued from) slaving at the QA mines of Microsoft Xbox hardware testing. Rescued from this former home of moronic users and, freed from networks past, they now thrive here as a core part of the staff. Experienced in most aspects of IRC operation, with experience in these daemons; Anope, Atheme, Charybdis, Elemental, InspIRCd, and Unreal."
