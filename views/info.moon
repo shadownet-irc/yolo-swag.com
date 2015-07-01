@@ -13,9 +13,7 @@ class UserInfo extends Widget
         h3 ->
           a href: "mailto:xena@yolo-swag.com", "Xena"
         p ->
-          text "The founder of ShadowNET, Xe has guided the creation of elemental-ircd and worked hard to make Cod and Atheme work symbiotically with it. Their favorite color is blue and you can find them on github "
-          a href: "http://github.com/Xe", [[here]]
-          text "."
+          text "The founder of ShadowNET, Xe has guided the creation of elemental-ircd and worked hard to make Cod and Atheme work symbiotically with it."
 
         h3 "Caerdwyn"
         p "The founder of DashNet, an IRC network that merged into ShadowNET, a capable Linux system administrator who is still learning (as we all are), but has proven himself to be ready for the task. Bug him if there's something wrong with the website, a server is down, etc."
@@ -32,6 +30,9 @@ class UserInfo extends Widget
 
         h3 "Lore"
         p "See one of the DashNet ZNC accounts connected somewhere, or does our Minecraft server intrigue you? Contact him if you want in."
+
+        h3 "Dusk"
+        p "The founder of cToS, an IRC network that merged into ShadowNET."
 
       div class: "col-md-6", ->
         h2 "Servers"
@@ -55,10 +56,10 @@ class UserInfo extends Widget
 
           li ->
             p ->
-              code "rudimental.yolo-swag.com"
+              code "dusky.horse"
               text " - "
-              i "drums and bass gospel jazz choir"
-              text " - New York City, WA"
+              i "The Help network for Dusk's ZNC users"
+              text " - Canada"
 
           li ->
             p ->
