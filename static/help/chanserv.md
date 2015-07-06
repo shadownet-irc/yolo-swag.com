@@ -15,7 +15,7 @@ Syntax: `REGISTER <#channel>`
 
 #### Examples
 
-    /msg NickServ REGISTER #lobby
+    /msg ChanServ REGISTER #lobby
 
 By default on ShadowNET, registering a channel does *not* give you denoted founder
 or admin mode. To set this please use flags `+q` for founder or `+a` for admin.
