@@ -71,13 +71,13 @@ Syntax: `FLAGS <#channel> [nickname|hostmask|group flag_changes]`
 
 #### Examples
 
-    /msg NickServ FLAGS #foo
-    /msg NickServ FLAGS #foo foo!*@bar.com VOP
-    /msg NickServ FLAGS #foo foo!*@bar.com -V+oO
-    /msg NickServ FLAGS #foo foo!*@bar.com -*
-    /msg NickServ FLAGS #foo foo +oOtsi
-    /msg NickServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
-    /msg NickServ FLAGS #foo !baz +*
+    /msg ChanServ FLAGS #foo
+    /msg ChanServ FLAGS #foo foo!*@bar.com VOP
+    /msg ChanServ FLAGS #foo foo!*@bar.com -V+oO
+    /msg ChanServ FLAGS #foo foo!*@bar.com -*
+    /msg ChanServ FLAGS #foo foo +oOtsi
+    /msg ChanServ FLAGS #foo TroubleUser!*@*.troubleisp.net +b
+    /msg ChanServ FLAGS #foo !baz +*
 
 ### Automatically Ban Someone
 
@@ -115,8 +115,8 @@ the reason and time left until expiration.
 
 #### Examples
 
-    /msg NickServ AKICK #foo ADD bar you are annoying | private op info
-    /msg NickServ AKICK #foo ADD *!*foo@bar.com !T 5d
-    /msg NickServ AKICK #foo DEL bar
-    /msg NickServ AKICK #foo LIST
+    /msg ChanServ AKICK #foo ADD bar you are annoying | private op info
+    /msg ChanServ AKICK #foo ADD *!*foo@bar.com !T 5d
+    /msg ChanServ AKICK #foo DEL bar
+    /msg ChanServ AKICK #foo LIST
 
