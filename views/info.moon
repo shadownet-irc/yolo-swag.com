@@ -59,7 +59,7 @@ class UserInfo extends Widget
               code "dusky.horse"
               text " - "
               i "The Help network for Dusk's ZNC users"
-              text " - Canada"
+              text " - France"
 
           li ->
             p ->
