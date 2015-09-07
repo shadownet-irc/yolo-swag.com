@@ -8,6 +8,8 @@ class HelpList extends Widget
 
     ul ->
       li ->
+        a href: "/help/bouncer", "Bouncer usage"
+      li ->
         a href: "/help/chanserv", "ChanServ usage"
       li ->
         a href: "/help/cmode", "Channel modes on ShadowNET"
