@@ -42,9 +42,9 @@ class Rules extends Widget
 
     p ->
       text "ShadowNET staff may kill or kline users with or without reason. ShadowNET staff
-    are"
+    are "
       b "not"
-      text"law enforcement."
+      text" law enforcement."
 
     h2 "Session Limits"
 
