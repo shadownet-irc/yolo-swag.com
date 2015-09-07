@@ -12,7 +12,7 @@ If you do not have a NickServ account, please [click here](/register).
 Connect to `bnc.yolo-swag.com` on ssl port `6697` (or plaintext port `6667`). 
 Your password is going to be your NickServ username and password. For example: 
 if your username is `foo` and your password is `hunter2`, you would enter in 
-your password as `foo:bar`.
+your password as `foo:hunter2`.
 
 ## Terms of Use
 
