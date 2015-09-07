@@ -52,6 +52,8 @@ class Layout extends Widget
 
         ul class: "nav navbar-nav navbar-right", ->
           li ->
+            a href: "/register", "Register"
+          li ->
             a href: "/chat", "Chat Now"
 
   footer: =>
