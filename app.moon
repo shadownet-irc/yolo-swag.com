@@ -3,6 +3,7 @@ lapis = require "lapis"
 class extends lapis.Application
   layout: require "layout.bootstrap"
 
+  @include "controllers.account"
   @include "controllers.help"
 
   [index: "/"]: =>
