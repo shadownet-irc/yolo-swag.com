@@ -34,7 +34,7 @@ class UserInfo extends Widget
         h3 ->
          a href: "mailto:dusk@dusky.horse", "Dusk"
         p ->
-         text "The founder of ctOS.link, an IRC network that merged into ShadowNET. She also hosts her own ZNC bouncer, if you're interested you can contacter her."
+         text "The founder of ctOS.link, an IRC network that merged into ShadowNET. She also hosts her own ZNC bouncer, if you're interested you can contact her."
 
       div class: "col-md-6", ->
         h2 "Servers"
