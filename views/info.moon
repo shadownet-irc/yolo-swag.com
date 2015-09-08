@@ -32,7 +32,7 @@ class UserInfo extends Widget
         p "See one of the DashNet ZNC accounts connected somewhere, or does our Minecraft server intrigue you? Contact him if you want in."
 
         h3 ->
-        a href: "mailto:dusk@dusky.horse", "Dusk"
+         a href: "mailto:dusk@dusky.horse", "Dusk"
         p ->
          text "The founder of ctOS.link, an IRC network that merged into ShadowNET. She also hosts her own ZNC bouncer, if you're interested you can contacter her."
 
