@@ -8,6 +8,10 @@ body {
 	padding: 0 15px;
 }
 
+.navbar {
+	background: #000000;
+}
+
 .container .text-muted {
 	margin: 20px 0;
 }
