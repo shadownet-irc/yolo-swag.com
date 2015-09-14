@@ -14,6 +14,11 @@ Your password is going to be your NickServ username and password. For example:
 if your username is `foo` and your password is `hunter2`, you would enter in 
 your password as `foo:hunter2`.
 
+### Over Tor
+
+You can also connect to `bnc.yolo-swag.com` over Tor using 
+`6dewejuo4w5z2oat.onion` as the server name.
+
 ## Terms of Use
 
 - You may not attempt to crash the BNC
